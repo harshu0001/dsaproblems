@@ -9,7 +9,21 @@ Input: strs = ["act","pots","tops","cat","stop","hat"]
 
 Output: [["hat"],["act", "cat"],["stop", "pots", "tops"]]
 '''
-# strs = ["act","pots","tops","cat","stop","hat"]
-# for i in range(len(strs)):
-#     for j in range(i+1, len(strs)):
+
+
+strs = ["act","pots","tops","cat","stop","hat"]
+newlist = []
+
+for i in strs:
+    new = list(i)
+    new.sort()
+    newlist.append(new)
+print(newlist)
+sublist = list()
+
+# for i in range(len(newlist)):
         
+# x = ["a", "c", "t"]
+# y = "".join(x)
+# print(y)
+# print(type(y))
