@@ -7,5 +7,4 @@ for i in l:
     if i not in newlist:
         newlist.append(i)
 
-s = "".join([x for x in newlist])
-print(s, type(s))
+print(min(['abcd', 'acdb']))
